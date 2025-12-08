@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import { WebView } from "react-native-webview";
 import * as ScreenOrientation from "expo-screen-orientation";
+import { Asset } from 'expo-asset';
 
 // We'll load rn-usb-serial ONLY on Android, at runtime
 let RNSerialport = null;

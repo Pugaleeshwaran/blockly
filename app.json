@@ -24,7 +24,12 @@
       "package": "com.anonymous.blocklystemapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "build": {
+        "babel": {
+          "include": ["./assets/blockly/blockly.js"]
+        }
+      },
     },
     "assetBundlePatterns": [
       "**/*"
